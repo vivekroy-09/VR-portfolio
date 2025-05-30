@@ -1,0 +1,177 @@
+@media only screen and (min-width:991px) and (max-width:1199px)  {
+*.animated{animation-duration:inherit !important;}
+
+.about-section .container .row .right p{ font-size: 20px !important;}
+.skills-section{ max-width: 90% !important;}
+.skill-box{ padding: 20px !important;}
+.about-section .container .row .right .content{ padding-top: inherit !important;}
+.about-section .container .row .right .about-row{ margin-top: inherit !important;}
+.about-section .container .row .right{ gap: 10px !important;}
+.about-section .container .row{ padding: 50px 0 !important;}
+
+.about-section .container .row .right .about-row{ flex-direction: column !important; gap: 0 !important;}
+.download-cv-button{ margin-top: inherit !important;}
+.download-cv-button button{ padding: 10px !important; font-size: 15px !important;}
+.about-section .container .row .right .about-row li{ padding-bottom: 12px !important;}
+
+/* portfolio */
+.portfolio-main .row{ margin: 20px !important;}
+.portfolio-main .card img{ object-fit: contain !important;}
+
+/* contact */
+.contact-section .row{ flex-wrap: wrap !important; justify-content: center !important; width: 100%; gap: 60px 20px;}
+.contact-section .contact-box{ width: 48% !important;}
+.contact-section .second-row{ flex-direction: column !important;}
+.contact-section .right, .left{ width: 100% !important;}
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 990px){
+*.animated{animation-duration:inherit !important;}
+.home-page-section .main-content h1{   font-size: 70px !important;}
+#typewriter{    font-size: 70px;    font-weight: bold;}
+.about-section .container .row{ flex-direction: column !important; gap: inherit !important;}
+.about-section .container .row .left ,.right{ width: 100% !important;}
+.about-section .container .row .left .my-img{ height: 50vh !important;}
+.about-section .container .row .right .about-row{ margin-top: inherit !important;}
+.portfolio-main .row .left, .right{ gap: 30px !important;}
+.area{ height: 145vh !important;}
+.circles{ height: 145% !important;}
+.about-section .container .row .right .about-row li span{ padding-right: 5px !important;}
+.about-section .container .row .right .about-row{ gap: 30px !important;}
+.about-section .container .row .right .about-row ul li p{ font-size: 17px;}
+.download-cv-button{ margin-top: inherit;}
+.download-cv-button button{ font-size: 15px !important; padding: 15px !important;}
+.skills-section{ grid-template-columns: 1fr !important;}
+.skills-section{ margin: 20px 50px;}
+
+
+/* porfolio */
+.portfolio-main .row{ margin: 20px !important; flex-direction: column !important;}
+.portfolio-main .row .left, .right{ width: 100% !important;}
+
+/* contact */
+.contact-section .row{ flex-wrap: wrap !important; justify-content: center !important; width: 100%; gap: 60px 20px;}
+.contact-section .contact-box{ width: 100% !important;}
+.contact-section .second-row{ flex-direction: column !important; }
+.contact-section .right, .left{ width: 100% !important; flex-direction: column !important;}
+.contact-section .contact-box i{ left: 44% !important;}
+.contact-section .second-row form{ width: 100% !important;}
+.contact-section .second-row{ margin: 0 !important; margin-top: 45px !important;}
+.contact-section .row{ margin: 0 !important;}
+.contact-section h1{ padding-bottom: 50px !important;}
+.map {    position: relative !important;    height: 445px !important;    width: 100% !important;}
+.contact-section .line{ width: 50% !important;}
+
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+*.animated{animation-duration:inherit !important;}
+.home-page-section .main-content h1{ font-size: 60px;}
+#typewriter{ font-size: 60px;}
+.home-page-section .main-content p{ font-size: 18px !important; padding-top: 30px;}
+.home-page-section .main-content a{ font-size: 14px; padding: 10px 20px !important;}
+
+/* about-section */
+.about-section .container{ padding: 0px 20px !important;}
+.about-section .container .row{ flex-direction: column !important; gap: inherit !important; padding: inherit !important;}
+.about-section .container .row .left ,.right{ width: 100% !important;}
+.about-section .container .row .left .my-img{ height: 50vh !important;}
+.about-section .container .row .right .about-row{ margin-top: inherit !important;}
+.portfolio-main .row .left, .right{ gap: 30px !important;}
+.area{ height: 145vh !important;}
+.circles{ height: 145% !important;}
+.about-section .container .row .right .about-row li span{ padding-right: 5px !important;}
+.about-section .container .row .right .about-row{ flex-direction: column; gap: 0 !important;}
+.about-section .container .row .right .about-row ul li p{ font-size: 17px;}
+.download-cv-button{ margin-top: inherit;}
+.download-cv-button button{ font-size: 12px !important; padding: 10px !important;}
+.skills-section{ grid-template-columns: 1fr !important;}
+.skills-section{ margin: 20px 30px;}
+.about-section .container .row .right .content p{ font-size: 19px !important;}
+.portfolio-main .row .left, .right{ gap: 10px !important;}
+.about-section .container .row .right .about-row li{ padding-bottom: 15px !important;}
+
+/* porfolio */
+.portfolio-main .row{ margin: 20px !important; flex-direction: column !important;}
+.portfolio-main .row .left, .right{ width: 100% !important;}
+.portfolio-main .card img{ object-fit: contain !important;}
+
+/* contact */
+.contact-section .row{ flex-wrap: wrap !important; justify-content: center !important; width: 100%; gap: 60px 20px;}
+.contact-section .contact-box{ width: 100% !important;}
+.contact-section .second-row{ flex-direction: column !important; }
+.contact-section .right, .left{ width: 100% !important; flex-direction: column !important;}
+.contact-section .contact-box i{ left: 44% !important;}
+.contact-section .second-row form{ width: 100% !important;}
+.contact-section .second-row{ margin: 0 !important;}
+.contact-section .row{ margin: 0 !important;}
+.contact-section h1{ padding-bottom: 50px !important;}
+.map {    position: relative !important;    height: 445px !important;    width: 100% !important;}
+.contact-section .line{ width: 50% !important;}
+.contact-section .container{ margin: 0 35px !important;}
+.contact-section .second-row{ margin-top: 40px !important;}
+
+}
+
+@media only screen and (max-width: 479px){
+*.animated{animation-duration:inherit !important;}
+.home-page-section .main-content h1{ font-size: 40px;}
+#typewriter{ font-size: 40px;}
+.home-page-section .main-content p{ font-size: 18px !important; padding-top: 30px; width: 100%;}
+.home-page-section .main-content a{ font-size: 14px; padding: 10px 20px !important;}
+.home-page-section .work-with-me{ font-size: 12px;}
+.home-page-section .work-with-me span{ font-size: 14px;}
+
+/* about-section */
+.about-section .container{ padding: 0px 20px !important;}
+.about-section .container .row{ flex-direction: column !important; gap: inherit !important; padding: 0 !important;}
+.about-section .container .row .left ,.right{ width: 100% !important;}
+.about-section .container .row .left .my-img{ height: 50vh !important;}
+.about-section .container .row .right .about-row{ margin-top: inherit !important;}
+.portfolio-main .row .left, .right{ gap: 30px !important;}
+.area{ height: 116vh !important;}
+.circles{ height: 116% !important; width: 109% !important;}
+.about-section .container .row .right .about-row li span{ padding-right: 5px !important;}
+.about-section .container .row .right .about-row{ display: none;}
+.about-section .container .row .right .about-row ul li p{ font-size: 17px;}
+.download-cv-button{ margin-top: inherit;}
+.download-cv-button button{ font-size: 12px !important; padding: 10px !important;}
+.skills-section{ grid-template-columns: 1fr !important;}
+.skills-section{ margin: 20px 10px;}
+.about-section .container .row .right .content p{ font-size: 19px !important;}
+.portfolio-main .row .left, .right{ gap: 10px !important;}
+.about-section .container .row .right .about-row li{ padding-bottom: 15px !important;}
+.about-section .container h1{ padding: 23px !important;}
+.skill-box{ padding: 15px !important;}
+
+/* porfolio */
+.portfolio-main .row{ margin: 20px !important; flex-direction: column !important;}
+.portfolio-main .row .left, .right{ width: 100% !important; gap: 30PX !important;}
+.portfolio-main .card img{ object-fit: contain !important;}
+.portfolio-main h1{ padding: 20px 0 !important;}
+.port-circles {    position: absolute !important;    top: 0 !important;    left: 0 !important;    width: 100% !important;    height: 112% !important;    overflow: hidden !important;}
+.portfolio-main h1{ font-size: 35px !important;}
+
+/* contact */
+.contact-section .row{ flex-wrap: wrap !important; justify-content: center !important; width: 100%; gap: 60px 20px;}
+.contact-section .contact-box{ width: 100% !important;}
+.contact-section .second-row{ flex-direction: column !important; }
+.contact-section .right, .left{ width: 100% !important; flex-direction: column !important;}
+.contact-section .contact-box i{ left: 44% !important;}
+.contact-section .second-row form{ width: 100% !important;}
+.contact-section .second-row{ margin: 0 !important;}
+.contact-section .row{ margin: 0 !important;}
+.contact-section h1{ padding-bottom: 50px !important;}
+.map {    position: relative !important;    height: 445px !important;    width: 100% !important;}
+.contact-section .line{ width: 50% !important;}
+.contact-section .container{ margin: 0 20px !important;}
+.contact-section .second-row{ margin-top: 40px !important;}
+.contact-section .contact-box p{ font-size: 25px !important;}
+.contact-section h1{ font-size: 40px !important;}
+}
+
+@media only screen and (max-width: 363px){
+*.animated{animation-duration:inherit !important;}
+.contact-section{ width: 110% !important;}
+.contact-section .contact-box p{ font-size: 16px !important;}
+}

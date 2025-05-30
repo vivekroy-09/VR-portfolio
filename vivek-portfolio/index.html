@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Roy | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/css/hamburger.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+    <div id="vanta-bg"></div>
+    <div class="home-page-section">
+    <div class="container">
+        <header>
+               <input type="checkbox" id="navcheck" role="button" title="menu">
+            <label for="navcheck" aria-hidden="true" title="menu" class="animate__animated ">
+                <span class="burger">
+                    <span class="bar">
+                        <span class="visuallyhidden">Menu</span>
+                    </span>
+                </span>
+            </label>
+            <nav id="menu">
+                
+                   <a href="index.html" class="fade-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="fade-link"><i class="fa-solid fa-address-card"> </i> About</a>
+                <a href="portfolio.html" class="fade-link"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="fade-link"><i class="fa-solid fa-address-book"></i> Contact</a>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="main-content ">
+                <h1 class="wow fadeInDown">Hey ! I'am <br> <span id="typewriter"></span></h1>
+                <p class="wow fadeIn">Transform your website dreams into a reality in just a few simple steps.</p>
+
+                <div class="button wow fadeIn">
+                <a href="about.html" class=" fade-link">
+                    more about me
+                </a>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+     <div class="work-with-me">
+            <p class="wow fadeInLeft">Let's work together</p>
+            <p class="phone-no wow fadeInRight">+91 8851767641</p>
+            <span class="wow fadeInLeft">vivekroy.codes@gmail.com</span>
+        </div>
+        </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>new WOW().init();</script>
+    <script>
+
+    const words = ["Vivek Roy", "Developer"];
+    const el = document.getElementById("typewriter");
+
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function type() {
+      const currentWord = words[wordIndex];
+
+      if (isDeleting) {
+        charIndex--;
+        el.textContent = currentWord.substring(0, charIndex);
+      } else {
+        charIndex++;
+        el.textContent = currentWord.substring(0, charIndex);
+      }
+
+      let speed = isDeleting ? 60 : 120;
+
+      if (!isDeleting && charIndex === currentWord.length) {
+        speed = 1000; // pause before delete
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+        speed = 1000; // pause before typing new word
+      }
+
+      setTimeout(type, speed);
+    }
+
+    type();
+
+      document.querySelectorAll('a.fade-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // Stop instant navigation
+      const href = this.getAttribute('href');
+
+      // Add fade-out class
+      document.body.classList.add('fade-out');
+
+      // Wait for transition to finish, then navigate
+      setTimeout(() => {
+        window.location.href = href;
+      }, 500); // same as transition duration
+    });
+  });
+    </script>
+</body>
+
+</html>

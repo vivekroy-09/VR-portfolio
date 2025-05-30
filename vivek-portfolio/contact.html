@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Roy | Frontend Developer </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <div id="vanta-bg"></div>
+    <div class="contact-section">
+        <header>
+             <input type="checkbox" id="navcheck" role="button" title="menu">
+            <label for="navcheck" aria-hidden="true" title="menu">
+                <span class="burger">
+                    <span class="bar">
+                        <span class="visuallyhidden">Menu</span>
+                    </span>
+                </span>
+            </label>
+            <nav id="menu">
+                    <a href="index.html" class="fade-link"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html" class="fade-link"><i class="fa-solid fa-address-card"> </i> About</a>
+                <a href="portfolio.html" class="fade-link"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="fade-link"><i class="fa-solid fa-address-book"></i> Contact</a>   
+            </nav>
+        </header>
+        <div class="container">
+             <h1>Get <span>In Touch</span></h1>
+            <div class="row">
+                <div class="contact-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 8851767641</p>
+                </div>
+
+
+                <div class="contact-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>frontendwithvivek@gmail.com</p>
+                </div>
+
+
+                <div class="contact-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>India, Delhi</p>
+                </div>
+                
+            </div>
+            <div class="outer-line">
+                <div class="line"></div>
+                </div>
+
+              <div class="second-row">
+                <div class="left">
+                    <form action="">
+                        <div class="all-input">
+                        <input class="contact-form" type="text" name="" id="" placeholder="name" required>
+                        <input contact-form type="email" name="" id="" placeholder="email" required>
+                        <input type="number" readonly placeholder="number">
+                        </div>
+                        <textarea class="massage" id="massage" placeholder="massage"></textarea>
+                        <button>submit</button>
+                    </form>
+                    <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d447938.3144340778!2d77.10249023795099!3d28.70405923710725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1748426638815!5m2!1sen!2sin" width="450" height="445" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+                </div>
+                <div class="right">
+                    <div class="send-me-content">
+                        <h2>Send Me An Email</h2>
+                        <p>Feel free to get in touch with me. I am always open to discussing new projects or creative ideas.</p>
+                        <div class="send-me-line "></div>
+                        <h3>Follow Me</h3>
+                        
+                        <div class="widget">
+                            <a href="https://www.instagram.com/accounts/login/?next=%2Fvivekroy_00%2F&source=omni_redirect"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/to-vivek-roy/?originalSubdomain=in"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://x.com/to_vivek_roy?s=11"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://github.com/VIVEK-FRONTEND-DEVELOPER"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <div class="send-me-line send-bottom"></div>
+                    </div>
+                </div>
+
+              </div>
+            
+              
+              <p class="copy-right">© 2025 Vivek Roy. All Rights Reserved.</p>
+              
+        </div>
+        
+    </div>
+
+
+    <script>
+  document.querySelectorAll('a.fade-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // Stop instant navigation
+      const href = this.getAttribute('href');
+
+      // Add fade-out class
+      document.body.classList.add('fade-out');
+
+      // Wait for transition to finish, then navigate
+      setTimeout(() => {
+        window.location.href = href;
+      }, 500); // same as transition duration
+    });
+  });
+</script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>   
+    <script src="js/custom.js"></script>
+</body>
+</html>
